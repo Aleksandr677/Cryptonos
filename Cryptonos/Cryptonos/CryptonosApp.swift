@@ -11,7 +11,10 @@ import SwiftUI
 struct CryptonosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+                    .navigationBarBackButtonHidden()
+            }
         }
     }
 }
