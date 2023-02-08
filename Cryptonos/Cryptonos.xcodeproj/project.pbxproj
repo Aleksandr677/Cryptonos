@@ -10,6 +10,7 @@
 		7616CACA29940FAE00D963A1 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7616CAC929940FAE00D963A1 /* CoinRowView.swift */; };
 		7616CACC2994107A00D963A1 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7616CACB2994107A00D963A1 /* PreviewProvider.swift */; };
 		7616CACE2994139800D963A1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7616CACD2994139800D963A1 /* Double.swift */; };
+		7616CAD029941ED900D963A1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7616CACF29941ED900D963A1 /* HomeViewModel.swift */; };
 		76E242F62992BB3F00F3420F /* CryptonosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E242F52992BB3F00F3420F /* CryptonosApp.swift */; };
 		76E242F82992BB3F00F3420F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E242F72992BB3F00F3420F /* ContentView.swift */; };
 		76E242FA2992BB4000F3420F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E242F92992BB4000F3420F /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		7616CAC929940FAE00D963A1 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		7616CACB2994107A00D963A1 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		7616CACD2994139800D963A1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		7616CACF29941ED900D963A1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		76E242F22992BB3F00F3420F /* Cryptonos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptonos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E242F52992BB3F00F3420F /* CryptonosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptonosApp.swift; sourceTree = "<group>"; };
 		76E242F72992BB3F00F3420F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		76E243092992C07B00F3420F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7616CACF29941ED900D963A1 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7616CACA29940FAE00D963A1 /* CoinRowView.swift in Sources */,
+				7616CAD029941ED900D963A1 /* HomeViewModel.swift in Sources */,
 				76E242F82992BB3F00F3420F /* ContentView.swift in Sources */,
 				76E2430B2992C08A00F3420F /* HomeView.swift in Sources */,
 				76E242F62992BB3F00F3420F /* CryptonosApp.swift in Sources */,
