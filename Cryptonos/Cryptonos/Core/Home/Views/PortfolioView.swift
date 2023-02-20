@@ -28,6 +28,7 @@ struct PortfolioView: View {
                     }
                 } //VStack
             } //ScrollView
+            .background(Color.theme.background.ignoresSafeArea())
             .navigationTitle("Edit Portfolio")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
