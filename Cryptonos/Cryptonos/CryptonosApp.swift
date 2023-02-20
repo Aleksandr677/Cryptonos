@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct CryptonosApp: App {
     @StateObject private var vm = HomeViewModel()
+    @State private var showLauchView: Bool = true
     
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
@@ -18,11 +19,21 @@ struct CryptonosApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeView()
-                    .navigationBarBackButtonHidden()
+            ZStack {
+                NavigationView {
+                    HomeView()
+                        .navigationBarBackButtonHidden()
+                }
+                .environmentObject(vm)
+                
+                ZStack {
+                    if showLauchView {
+                        LaunchView(showLaunchView: $showLauchView)
+                            .transition(.move(edge: .leading))
+                    }
+                }
+                .zIndex(2.0)
             }
-            .environmentObject(vm)
         }
     }
 }
